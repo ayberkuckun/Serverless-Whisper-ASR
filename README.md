@@ -20,7 +20,6 @@ for 300 steps. Hyperparameter search has been done using Wandb and the results c
 ``parameter_search.pdf``. Lastly the final model has been pushed to the HuggingFace
 
 **Inference Program (Hugging Face Space):**
-- https://huggingface.co/spaces/ayberkuckun/whisper-small-sv-SE
+- https://huggingface.co/spaces/reyrobs/whisper-small-sv-SE
 
-Users can give a YouTube link to a Swedish video in order to obtain the audio and its trascribtion from our model.
-Also, the WER scores of ``base``, ``2K`` and ``2K-fine-tuned`` model can be seen in the page.
+The user can use a Youtube video which is in Swedish, or use the microphone in order to do a transcription. The default link present is a short 30 Youtube "shorts" video. In the event that both a Youtube link is entered as well as a microphone input, the space defaults to translating the microphone input. As output, we get an audio representing the input entry, a transciption and each of the model's WER score. 
