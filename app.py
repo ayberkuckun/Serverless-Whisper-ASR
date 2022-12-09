@@ -13,7 +13,7 @@ dataset_api = project.get_dataset_api()
 
 dataset_api.download("Resources/titanic/images/latest_titanic.png", overwrite=True)  # change link
 
-pipe = pipeline(model="ayberkuckun/whisper-small-sv-SE", task="automatic-speech-recognition", chunk_length_s=30)
+pipe = pipeline(model="ayberkuckun/whisper-small-se2", task="automatic-speech-recognition", chunk_length_s=30)
 
 
 def transcribe(url):
