@@ -11,8 +11,8 @@ using feature extractor and tokenizer. Lastly we save the processed data to our 
 PS: These notebooks have been prepared to be run on Colab.
 
 **Training Pipeline:**
-- ``training.ipynb``
-- ``whisper_hyperparameter_tuning.ipynb``
+- Hyperparameter tuning for best model
+- Final training on best parameters found
 
 We download the processed data form our drive and the raw model from HuggingFace.
 The final model is trained for 2000 steps with the best parameters obtained from the hyperparameter search 
